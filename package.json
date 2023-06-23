@@ -1,0 +1,21 @@
+{
+  "name": "rspack-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rspack && webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rspack/cli": "^0.2.3",
+    "css-loader": "^6.8.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
