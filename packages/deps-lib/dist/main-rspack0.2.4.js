@@ -1,19 +1,23 @@
 (function() {
 var __webpack_modules__ = {
-"151": function (module, exports, __webpack_require__) {
+"./src/index.js": function (module, exports, __webpack_require__) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-var _411 = __webpack_require__.ir(__webpack_require__("411"));
-console.log(_411.default);
+Object.defineProperty(exports, "run", {
+    enumerable: true,
+    get: function() {
+        return run;
+    }
+});
+var _react = __webpack_require__.ir(__webpack_require__("react"));
+function run() {
+    console.log("deps-lib", _react.default);
+}
 },
-"411": function (module, exports, __webpack_require__) {
-module.exports = {
-  "my-class": "_07b83b82576f8086",
-  "my-class2": "b2fabca1ec7065ff",
-};
-},
+"react": function (module, exports, __webpack_require__) {
+module.exports = require('react')},
 
 }
 // The module cache
@@ -86,7 +90,8 @@ __webpack_require__.ir = function (obj, nodeInterop) {
 };
 
 })();
-var __webpack_exports__ = __webpack_require__("151");
+var __webpack_exports__ = __webpack_require__("./src/index.js");module["exports"] = __webpack_exports__;
+
 })()
 
 //# sourceMappingURL=main.js.map

@@ -1,1 +1,0 @@
-{"version":3,"file":"main.css","sources":["./src/style.module.scss"],"sourcesContent":[".my-class:global {\n  font-size: 100px;\n}\n\n.my-class2 :global {\n  font-size: 100px;\n}\n"],"names":[],"mappings":"CAAgB,CACd;EAAA,SAAS,EAAC,GAAV;AAAA,CAGF;AAAA,CAAC,gBAAS,CAAC,CAAO,CAChB;EAAA,SAAS,EAAC,GAAV;AAAA,C"}
