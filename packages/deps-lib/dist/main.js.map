@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","sources":["./src/index.js"],"sourcesContent":["import React from \"react\";\nexport function run() {\n    console.log(\"deps-lib\", React);\n}"],"names":[],"mappings":";;;;;;;+BACgB;;;eAAA;;;;AAAT,SAAS;IACZ,QAAQ,IAAI,YAAY;AAC5B"}
+{"version":3,"file":"main.js","sources":["./src/index.js"],"sourcesContent":["import React from \"react\";\nexport function run() {\n    console.log(\"deps-lib\", React);\n}"],"names":[],"mappings":";;;;;;;;;;AAA0B;AACpB,CAAC,SAAS;IACZ,QAAQ,GAAG,CAAC,YAAY,yCAAK;AACjC"}

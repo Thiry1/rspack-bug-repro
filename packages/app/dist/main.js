@@ -1,6 +1,6 @@
 (function() {
 var __webpack_modules__ = {
-"../../node_modules/react/cjs/react.production.min.js": function (module, exports, __webpack_require__) {
+"../../node_modules/react/cjs/react.production.min.js": function (__unused_webpack_module, exports, __webpack_require__) {
 /**
  * @license React
  * react.production.min.js
@@ -334,7 +334,7 @@ exports.version = "18.2.0";
 'use strict';
 module.exports = __webpack_require__(/* ./cjs/react.production.min.js */"../../node_modules/react/cjs/react.production.min.js");
 },
-"./src/index.js": function (module, __webpack_exports__, __webpack_require__) {
+"./src/index.js": function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 'use strict';
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */var react__WEBPACK_IMPORTED_MODULE_0_ = __webpack_require__(/* react */"../../node_modules/react/index.js");
@@ -350,20 +350,18 @@ console.log("app", react__WEBPACK_IMPORTED_MODULE_0__default);
 /* module decorator */ module = __webpack_require__.nmd(module);
 (function() {
     var __webpack_modules__ = {
-        "./src/index.js": function(module1, exports, __webpack_require__) {
-            "use strict";
-            Object.defineProperty(exports, "__esModule", {
-                value: true
-            });
-            Object.defineProperty(exports, "run", {
-                enumerable: true,
-                get: function() {
+        "./src/index.js": function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+            'use strict';
+            __webpack_require__.r(__webpack_exports__);
+            __webpack_require__.d(__webpack_exports__, {
+                'run': function() {
                     return run;
                 }
             });
-            var _react = __webpack_require__.ir(__webpack_require__("react"));
+            /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0_ = __webpack_require__(/* react */ "react");
+            /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__default = /*#__PURE__*/ __webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0_);
             function run() {
-                console.log("deps-lib", _react.default);
+                console.log("deps-lib", react__WEBPACK_IMPORTED_MODULE_0__default);
             }
         },
         "react": function(module1, exports, __webpack_require__) {
@@ -372,7 +370,7 @@ console.log("app", react__WEBPACK_IMPORTED_MODULE_0__default);
     };
     // The module cache
     var __webpack_module_cache__ = {};
-    function __webpack_require__(moduleId) {
+    function __nested_webpack_require_1__(moduleId) {
         // Check if module is in cache
         var cachedModule = __webpack_module_cache__[moduleId];
         if (cachedModule !== undefined) return cachedModule.exports;
@@ -381,40 +379,50 @@ console.log("app", react__WEBPACK_IMPORTED_MODULE_0__default);
             exports: {}
         };
         // Execute the module function
-        __webpack_modules__[moduleId](module1, module1.exports, __webpack_require__);
+        __webpack_modules__[moduleId](module1, module1.exports, __nested_webpack_require_1__);
         // Return the exports of the module
         return module1.exports;
     }
-    // ir
+    // webpack/runtime/has_own_property
     (function() {
-        function _getRequireCache(nodeInterop) {
-            if (typeof WeakMap !== "function") return null;
-            var cacheBabelInterop = new WeakMap();
-            var cacheNodeInterop = new WeakMap();
-            return (_getRequireCache = function(nodeInterop) {
-                return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
-            })(nodeInterop);
-        }
-        __webpack_require__.ir = function(obj, nodeInterop) {
-            if (!nodeInterop && obj && obj.__esModule) return obj;
-            if (obj === null || typeof obj !== "object" && typeof obj !== "function") return {
-                default: obj
-            };
-            var cache = _getRequireCache(nodeInterop);
-            if (cache && cache.has(obj)) return cache.get(obj);
-            var newObj = {};
-            var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-            for(var key in obj)if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
-                var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-                if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
-                else newObj[key] = obj[key];
-            }
-            newObj.default = obj;
-            if (cache) cache.set(obj, newObj);
-            return newObj;
+        __nested_webpack_require_1__.o = function(obj, prop) {
+            return Object.prototype.hasOwnProperty.call(obj, prop);
         };
     })();
-    var __webpack_exports__ = __webpack_require__("./src/index.js");
+    // webpack/runtime/define_property_getters
+    (function() {
+        __nested_webpack_require_1__.d = function(exports, definition) {
+            for(var key in definition)if (__nested_webpack_require_1__.o(definition, key) && !__nested_webpack_require_1__.o(exports, key)) Object.defineProperty(exports, key, {
+                enumerable: true,
+                get: definition[key]
+            });
+        };
+    })();
+    // webpack/runtime/make_namespace_object
+    (function() {
+        // define __esModule on exports
+        __nested_webpack_require_1__.r = function(exports) {
+            if (typeof Symbol !== 'undefined' && Symbol.toStringTag) Object.defineProperty(exports, Symbol.toStringTag, {
+                value: 'Module'
+            });
+            Object.defineProperty(exports, '__esModule', {
+                value: true
+            });
+        };
+    })();
+    // webpack/runtime/compat_get_default_export
+    (function() {
+        // getDefaultExport function for compatibility with non-harmony modules
+        __nested_webpack_require_1__.n = function(module1) {
+            // var getter = module && module.__esModule ?
+            //     function() { return module['default']; } :
+            //     function() { return module; }
+            // __webpack_require__.d(getter, { a: getter });
+            // return getter;
+            return module1 && module1.__esModule ? module1['default'] : module1;
+        };
+    })();
+    var __webpack_exports__ = __nested_webpack_require_1__("./src/index.js");
     module["exports"] = __webpack_exports__;
 })() //# sourceMappingURL=main.js.map
 ;
