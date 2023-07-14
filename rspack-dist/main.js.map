@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","sources":["./src/index.js"],"sourcesContent":["import styles from \"./style.module.scss\";\nconsole.log(styles);"],"names":[],"mappings":";;;;;;;;AACA,QAAQ,IAAI"}
+{"version":3,"file":"main.js","sources":["./src/index.js"],"sourcesContent":["import styles from \"./style.module.scss\";\nconsole.log(styles);"],"names":[],"mappings":";;;;;;AAAyC;AACzC,QAAQ,GAAG,CAAC,8CAAM"}

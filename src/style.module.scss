@@ -1,7 +1,47 @@
-.my-class:global {
-  font-size: 100px;
+.class {
+  &[data-x="true"] {
+    > .inner {
+      color: red;
+    }
+  }
+  &[data-x="false"] {
+    > .inner {
+      color: green;
+    }
+  }
+  > .inner {
+    color: blue;
+  }
 }
 
-.my-class2 :global {
-  font-size: 100px;
+.class2:global {
+  &[data-x="true"] {
+    > .inner {
+      color: red;
+    }
+  }
+  &[data-x="false"] {
+    > .inner {
+      color: green;
+    }
+  }
+  > .inner {
+    color: blue;
+  }
+}
+
+.class3[data-x="true"]:global {
+  > .inner {
+    color: red;
+  }
+}
+.class3[data-x="false"]:global {
+  > .inner {
+    color: green;
+  }
+}
+.class3:global {
+  > .inner {
+    color: blue;
+  }
 }

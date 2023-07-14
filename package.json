@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rspack/cli": "^0.2.3",
+    "@rspack/cli": "^0.2.6",
     "css-loader": "^6.8.1",
     "mini-css-extract-plugin": "^2.7.6",
     "sass": "^1.63.6",

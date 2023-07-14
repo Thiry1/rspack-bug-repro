@@ -1,17 +1,18 @@
 (function() {
 var __webpack_modules__ = {
-"151": function (module, exports, __webpack_require__) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-var _411 = __webpack_require__.ir(__webpack_require__("411"));
-console.log(_411.default);
+"151": function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+'use strict';
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */var _style_module_scss__WEBPACK_IMPORTED_MODULE_0_ = __webpack_require__(/* ./style.module.scss */"411");
+
+console.log(_style_module_scss__WEBPACK_IMPORTED_MODULE_0_);
 },
 "411": function (module, exports, __webpack_require__) {
 module.exports = {
-  "my-class": "_07b83b82576f8086",
-  "my-class2": "b2fabca1ec7065ff",
+  "class": "a28a3e507683767077b9",
+  "class2": "_460b8fe177c56095d0be",
+  "class3": "_00295dc395d77eecad91",
+  "inner": "_07833f3b5e519ae0838f",
 };
 },
 
@@ -34,55 +35,14 @@ function __webpack_require__(moduleId) {
  return module.exports;
 
 }
-// ir
+// webpack/runtime/make_namespace_object
 (function() {
-function _getRequireCache(nodeInterop) {
-	if (typeof WeakMap !== "function") return null;
-
-	var cacheBabelInterop = new WeakMap();
-	var cacheNodeInterop = new WeakMap();
-	return (_getRequireCache = function (nodeInterop) {
-		return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
-	})(nodeInterop);
-}
-
-__webpack_require__.ir = function (obj, nodeInterop) {
-	if (!nodeInterop && obj && obj.__esModule) {
-		return obj;
+// define __esModule on exports
+__webpack_require__.r = function(exports) {
+	if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+		Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 	}
-
-	if (
-		obj === null ||
-		(typeof obj !== "object" && typeof obj !== "function")
-	) {
-		return { default: obj };
-	}
-
-	var cache = _getRequireCache(nodeInterop);
-	if (cache && cache.has(obj)) {
-		return cache.get(obj);
-	}
-
-	var newObj = {};
-	var hasPropertyDescriptor =
-		Object.defineProperty && Object.getOwnPropertyDescriptor;
-	for (var key in obj) {
-		if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
-			var desc = hasPropertyDescriptor
-				? Object.getOwnPropertyDescriptor(obj, key)
-				: null;
-			if (desc && (desc.get || desc.set)) {
-				Object.defineProperty(newObj, key, desc);
-			} else {
-				newObj[key] = obj[key];
-			}
-		}
-	}
-	newObj.default = obj;
-	if (cache) {
-		cache.set(obj, newObj);
-	}
-	return newObj;
+	Object.defineProperty(exports, '__esModule', { value: true });
 };
 
 })();
