@@ -16,7 +16,7 @@
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// extracted by mini-css-extract-plugin\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"class\":\"tRK28RnSoYliGq2Ep0bj\",\"inner\":\"oCiYCQfgBis6JQG3P_Zk\",\"class2\":\"miqKuUqql8m4t6RS6h53\",\"class3\":\"Oy99JaTzEZhULgyzCEXO\"});\n\n//# sourceURL=webpack://rspack-bug-repro/./src/style.module.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// extracted by mini-css-extract-plugin\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"child-class2\":\"WbhpycI_9pDkfOPMvpJg\",\"child-class\":\"s2XQrX7FPCPkOy3uXIUE WbhpycI_9pDkfOPMvpJg\",\"root-class\":\"Obj7U_Mhzd8fqEFHVCWK s2XQrX7FPCPkOy3uXIUE WbhpycI_9pDkfOPMvpJg\"});\n\n//# sourceURL=webpack://rspack-bug-repro/./src/style.module.scss?");
 
 /***/ }),
 

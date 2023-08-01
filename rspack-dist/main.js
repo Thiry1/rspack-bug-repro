@@ -9,10 +9,9 @@ console.log(_style_module_scss__WEBPACK_IMPORTED_MODULE_0_);
 },
 "411": function (module, exports, __webpack_require__) {
 module.exports = {
-  "class": "a28a3e507683767077b9",
-  "class2": "_460b8fe177c56095d0be",
-  "class3": "_00295dc395d77eecad91",
-  "inner": "_07833f3b5e519ae0838f",
+  "child-class": "_5cdfeb82c54a18cb1040" + " " + "_347cb58de35f57a0df5a",
+  "child-class2": "_347cb58de35f57a0df5a",
+  "root-class": "bc923a70ec3ac6432f02" + " " + "_5cdfeb82c54a18cb1040",
 };
 },
 
