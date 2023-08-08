@@ -8,23 +8,23 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
           },
           {
             loader: "css-loader",
-            options: {
-              importLoaders: 1,
-            }
+            // options: {
+            //   importLoaders: 1,
+            // }
           },
-          {
-            loader: "sass-loader",
-            options: {
-              implementation: require("sass"),
-            },
-          }
+          // {
+          //   loader: "sass-loader",
+          //   options: {
+          //     implementation: require("sass"),
+          //   },
+          // }
         ],
       },
     ],
