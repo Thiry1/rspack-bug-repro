@@ -1,0 +1,5 @@
+@use "deps-lib";
+
+.foo {
+    background: deps-lib.$color-primary;
+}
