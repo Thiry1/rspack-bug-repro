@@ -1,0 +1,19 @@
+{
+  "name": "rspack-bug-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@rspack/cli": "^1.0.14",
+    "@rspack/core": "^1.0.14",
+    "core-js": "^3.39.0",
+    "css-loader": "^7.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:mode:entry": "ENV_MODE=entry rspack",
+    "build:mode:usage": "ENV_MODE=usage rspack"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
