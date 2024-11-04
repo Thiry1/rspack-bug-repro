@@ -11,6 +11,7 @@ module.exports = defineConfig({
     rules :[
       {
         test: /\.css$/,
+        type: "javascript/auto",
         use: [
           {
             loader: rspack.CssExtractRspackPlugin.loader,
@@ -22,6 +23,7 @@ module.exports = defineConfig({
       },
       {
         test: /\.js$/,
+        exclude: [/core-js/],
         use: {
           loader: "builtin:swc-loader",
           options: {
