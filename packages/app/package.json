@@ -1,0 +1,17 @@
+{
+  "name": "@monorepo/app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.2.3",
+    "@rspack/core": "^1.2.3",
+    "config": "^3.3.12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

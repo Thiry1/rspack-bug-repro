@@ -1,0 +1,7 @@
+{
+  "name": "rspack-bug-repro",
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+
+  }
+}
