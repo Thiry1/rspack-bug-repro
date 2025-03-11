@@ -1,0 +1,1 @@
+{"version":3,"file":"style.d0081ba37a.css","sources":["webpack://app/./src/style.css"],"sourcesContent":[".foo {\n    color: red;\n    /*background: white;*/\n}"],"names":[],"mappings":"AAAA;IACI,UAAU;IACV,qBAAqB;AACzB,C"}
