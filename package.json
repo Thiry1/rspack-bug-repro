@@ -1,0 +1,22 @@
+{
+  "name": "rspack-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-thiry1:Thiry1/rspack-bug-repro.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@rspack/cli": "1.5.5",
+    "@rspack/core": "1.5.5",
+    "typescript": "^5.9.2"
+  }
+}
